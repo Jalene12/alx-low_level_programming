@@ -2,10 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-
 /**
- * main-entry point 
- * Return: always 0 (success)
+ *main-entry point
+ *Return: always 0 (success)
  */
 
 int main(void)
@@ -16,7 +15,8 @@ int main(void)
 
 	for (d = '0'; d < '9'; d++)
 	{
-		for (p = d +1; p <= '9'; p++)
+
+		for (p = d + 1; p <= '9'; p++)
 		{
 			if (p != d)
 			{
