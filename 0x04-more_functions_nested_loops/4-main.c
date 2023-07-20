@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	_print_rev_recursion("\nColton Walker");
-       	return (0);
+    print_most_numbers();
+    return (0);
 }
